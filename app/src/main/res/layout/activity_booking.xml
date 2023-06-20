@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545555"
+    android:orientation="vertical"
+    tools:context=".BookingActivity">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Create a Booking"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idEdtPlayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Play Name" />
+
+    <EditText
+        android:id="@+id/idEdtSeatingType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Seating Type" />
+
+    <EditText
+        android:id="@+id/idEdtTotalSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Total Seats Needed" />
+
+    <EditText
+        android:id="@+id/idEdtLeadName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Lead Bookers Full Name" />
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:padding="20dp"
+        android:text="Tick to Accept Terms and Conditions"
+        android:textColor="#888"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/idBtnAddBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Create Booking"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnReadBookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Current Bookings"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+
